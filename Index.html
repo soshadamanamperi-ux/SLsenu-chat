@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLsenu Chat</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #080812;
+      color: white;
+    }
+    header {
+      padding: 22px;
+      text-align: center;
+      background: #111126;
+      border-bottom: 2px solid #a855f7;
+      box-shadow: 0 0 18px #7c3aed;
+    }
+    h1 { color: #d8b4fe; }
+    main {
+      width: min(900px, 92%);
+      margin: 30px auto;
+    }
+    .panel {
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #8b5cf6;
+      border-radius: 14px;
+      background: #121222;
+      box-shadow: 0 0 12px #312e81;
+    }
+    input, button {
+      width: 100%;
+      padding: 13px;
+      margin-top: 10px;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    input {
+      background: #080812;
+      color: white;
+      border: 1px solid #6366f1;
+    }
+    button {
+      border: none;
+      color: white;
+      background: linear-gradient(90deg, #7c3aed, #2563eb);
+      cursor: pointer;
+    }
+    button:hover { box-shadow: 0 0 15px #a855f7; }
+    .note { color: #b9b9d1; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⚡ SLsenu Chat ⚡</h1>
+    <p>Gaming RGB Community</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>🔐 Welcome</h2>
+      <p>Create your account to start chatting.</p>
+      <input id="username" placeholder="Your username">
+      <button onclick="alert('Next we will connect Supabase login!')">
+        Get Started
+      </button>
+    </section>
+
+    <section class="panel">
+      <h2>💬 Private Chat</h2>
+      <p class="note">Chat privately with friends.</p>
+    </section>
+
+    <section class="panel">
+      <h2>👥 Group Chat</h2>
+      <p class="note">Create a community with your friends.</p>
+    </section>
+  </main>
+</body>
+</html>
